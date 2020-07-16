@@ -27,7 +27,7 @@ public class MainDemoApp {
 		theAccountDAO.addAccount(myAccount, true);
 		theAccountDAO.doWork();
 		
-		//call the accountdao getter/setter methods
+		//call the accountdao getter/setter methods. getter and setter should NOT match
 		theAccountDAO.setName("foobar");
 		theAccountDAO.setServiceCode("silver");
 		
